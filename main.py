@@ -137,7 +137,7 @@ del_btn.grid(row=2,column=3,sticky=EW,padx=(10,0))
 tv = ttk.Treeview(f2, columns=(1, 2, 3, 4), show='headings', height=8)
 tv.pack(side="left")
 
-
+#change in the code
 tv.column(1, width=70,stretch=NO,anchor=CENTER)
 tv.column(2,anchor=CENTER)
 tv.column(3,anchor=CENTER)
